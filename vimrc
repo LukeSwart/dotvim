@@ -25,7 +25,7 @@
   let s:settings.max_column = 120
   let s:settings.autocomplete_method = 'neocomplcache'
   let s:settings.enable_cursorcolumn = 0
-  let s:settings.colorscheme = 'jellybeans'
+  let s:settings.colorscheme = 'zenburn'
   if has('lua')
     let s:settings.autocomplete_method = 'neocomplete'
   elseif filereadable(expand("~/.vim/bundle/YouCompleteMe/python/ycm_core.*"))
@@ -864,6 +864,7 @@
   NeoBundle 'tomasr/molokai'
   NeoBundle 'chriskempson/vim-tomorrow-theme'
   NeoBundle 'chriskempson/base16-vim'
+  NeoBundle 'Zenburn'
   NeoBundle 'w0ng/vim-hybrid'
   NeoBundle 'sjl/badwolf'
   NeoBundle 'zeis/vim-kolor' "{{{
