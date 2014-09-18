@@ -16,7 +16,7 @@ while it is very easy to install this and get up and running on a brand new mach
 1.  create the following symbolic link:
 
 ```
-ln -s .vim/.vimrc .vimrc
+ln -s ~/.vim/.vimrc ~/.vimrc
 ```
 
 1.  startup vim and neobundle will detect and ask you install any missing plugins.  you can also manually initiate this with `:NeoBundleInstall`
