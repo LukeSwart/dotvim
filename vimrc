@@ -79,6 +79,10 @@
       let s:settings[key] = g:dotvim_settings[key]
     endif
   endfor
+
+  " add spell checking and automatic wrapping at the recommended 72 columns
+  autocmd Filetype gitcommit setlocal spell textwidth=72
+  autocmd FileType asciidoc  setlocal spell
 "}}}
 
 " setup & neobundle {{{
