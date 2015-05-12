@@ -187,11 +187,11 @@
   let &tabstop=s:settings.default_indent              "number of spaces per tab for display
   let &softtabstop=s:settings.default_indent          "number of spaces per tab in insert mode
   let &shiftwidth=s:settings.default_indent           "number of spaces when indenting
-  set list                                            "highlight whitespace
+"  set list                                            "highlight whitespace
   set listchars=tab:│\ ,trail:•,extends:❯,precedes:❮
   set shiftround
   set linebreak
-  let &showbreak='↪ '
+"  let &showbreak='↪ '
 
   set scrolloff=1                                     "always show content after scroll
   set scrolljump=5                                    "minimum number of lines to scroll
