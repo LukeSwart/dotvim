@@ -189,3 +189,5 @@ map <leader>tc :tabclose<CR>
     set grepformat=%f:%l:%c:%m
   endif
 
+" display
+syntax on
