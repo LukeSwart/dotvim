@@ -153,6 +153,7 @@ map <leader>tc :tabclose<CR>
   set backspace=indent,eol,start                      "allow backspacing everything in insert mode
   set autoindent                                      "automatically indent to match adjacent lines
   set expandtab                                       "spaces instead of tabs
+  set tabstop=2 softtabstop=2 shiftwidth=2
   set smarttab                                        "use shiftwidth to enter tabs
 "  set list                                            "highlight whitespace
   set listchars=tab:│\ ,trail:•,extends:❯,precedes:❮
@@ -176,6 +177,7 @@ map <leader>tc :tabclose<CR>
   set t_vb=
 
   " searching
+  "vnoremap // y/<C-R>"<CR>
   set hlsearch                                        "highlight searches
   set incsearch                                       "incremental searching
   set ignorecase                                      "ignore case for searching
@@ -191,3 +193,4 @@ map <leader>tc :tabclose<CR>
 
 " display
 syntax on
+set synmaxcol=2048
